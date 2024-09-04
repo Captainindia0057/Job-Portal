@@ -1,0 +1,45 @@
+.Description-Box{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: #2e2e2e;
+    padding-top: 2vw
+}
+.Description-Box h1{
+    margin: 0 0 1vw 4vw;
+    color: white;
+}
+.about{
+    background-color: #222;
+    padding: 2vw 4vw 2vw 4vw;
+    border-radius: 0 0 15px 15px;
+}
+.about p{
+    margin: 5px 0 5px 0;
+    font-size: large;
+    color: white;
+}
+.about a{
+    text-decoration: none;
+    color: #2f9b8e;
+}
+.about a:hover{
+    color: white;
+    transition: 0.8s;
+}
+
+@media only screen and (max-width: 600px) {
+    .Description-Box{
+        margin: 0;
+        border-radius: 0;
+    }
+    .Description-Box h1{
+        font-size: 15px;
+    }
+    .about{
+        border-radius: 0;
+    }
+    .about p{
+        font-size: 10px;
+    }
+  }
