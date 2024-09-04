@@ -1,5 +1,4 @@
 # Job Portal
-**Author : [Sumit Kumar](https://skrsumit250.github.io/Portfolio/)**
 ## Description:
 This is a job portal website built with React.js for the frontend and Node.js for the backend. It allows job seekers to search for and apply for jobs, while employers can post job openings and manage applications.
 
